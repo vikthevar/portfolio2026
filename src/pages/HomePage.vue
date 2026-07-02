@@ -23,37 +23,6 @@ import { siteConfig } from '@/content/site'
       <SocialLinks :links="siteConfig.social" />
     </section>
 
-    <!-- Project Highlights Section -->
-    <section v-if="siteConfig.projectHighlights.length" class="mb-16">
-      <h2 class="text-sm font-medium text-gray-400 mb-4">Project Highlights</h2>
-      <div class="space-y-4">
-        <div v-for="project in siteConfig.projectHighlights" :key="project.title" class="border-l-2 border-gray-800 pl-4">
-          <h3 class="text-sm text-gray-300 font-medium mb-1">{{ project.title }}</h3>
-          <p class="text-xs text-gray-500 mb-2">{{ project.description }}</p>
-          <div class="flex flex-wrap gap-2">
-            <span 
-              v-for="tech in project.tech" 
-              :key="tech" 
-              class="text-xs px-2 py-1 bg-gray-800 text-gray-400 rounded"
-            >
-              {{ tech }}
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Latest Reads Section -->
-    <section v-if="siteConfig.latestReads.length" class="mb-16">
-      <h2 class="text-sm font-medium text-gray-400 mb-4">Latest Reads</h2>
-      <ul class="space-y-2">
-        <li v-for="read in siteConfig.latestReads" :key="read.title" class="text-sm text-gray-400 leading-relaxed">
-          • <a :href="read.url" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 transition-colors">{{ read.title }}</a>
-          <span class="text-gray-600 text-xs ml-2">({{ read.type }})</span>
-        </li>
-      </ul>
-    </section>
-
     <!-- Connect Section -->
     <section>
       <h2 class="text-sm font-medium text-gray-400 mb-3">Let's Connect</h2>

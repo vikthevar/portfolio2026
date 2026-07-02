@@ -2,9 +2,9 @@ import type { Project } from '@/types'
 
 export const projects: Project[] = [
   {
-    title: 'Multi-Tenant E-commerce Platform',
-    description: 'Architected and shipped shared full-stack platforms serving 5+ production storefronts for vintage clothing resellers. Designed reusable component library and backend APIs supporting multi-tenant authentication, inventory management, and Stripe payment flows. Platform generated $1,700+ in cumulative sales across client deployments.',
-    tech: ['React', 'Supabase', 'Stripe', 'PostgreSQL', 'Vercel'],
+    title: 'Vintage Storefront Website',
+    description: 'Jun. 2025 - Present. Developed a full-stack e-commerce platform featuring authentication, inventory management, and secure online payments. Designed scalable backend infrastructure using AWS services and integrated Stripe for payment processing. Built an administrative dashboard for inventory management, order tracking, and customer operations. Generated over $1,000 in sales while supporting hundreds of monthly visitors.',
+    tech: ['React', 'TypeScript', 'AWS', 'Stripe', 'Vercel'],
   },
   {
     title: 'F1 Qualifying Predictor',
