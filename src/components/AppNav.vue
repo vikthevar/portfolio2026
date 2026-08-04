@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Logo from './Logo.vue'
+import { siteConfig } from '@/content/site'
 </script>
 
 <template>
@@ -23,7 +24,7 @@ import Logo from './Logo.vue'
             Projects
           </router-link>
           <a 
-            href="/VikramThevarResume.pdf" 
+            :href="siteConfig.resumeUrl" 
             target="_blank"
             rel="noopener noreferrer"
             class="text-gray-400 hover:text-gray-100 transition-colors"

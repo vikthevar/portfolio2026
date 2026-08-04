@@ -11,5 +11,5 @@ export const siteConfig: SiteConfig = {
     github: 'https://github.com/vikthevar',
     email: 'vikthevar@gmail.com'
   },
-  resumeUrl: '/VikramThevarResume.pdf'
+  resumeUrl: '/VikramTResume.pdf'
 }

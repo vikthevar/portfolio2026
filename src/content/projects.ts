@@ -3,7 +3,7 @@ import type { Project } from '@/types'
 export const projects: Project[] = [
   {
     title: 'Vintage Storefront Website',
-    description: 'Jun. 2025 - Present. Developed a full-stack e-commerce platform featuring authentication, inventory management, and secure online payments. Designed scalable backend infrastructure using AWS services and integrated Stripe for payment processing. Built an administrative dashboard for inventory management, order tracking, and customer operations. Generated over $1,000 in sales while supporting hundreds of monthly visitors.',
+    description: 'Developed a full-stack e-commerce platform featuring authentication, inventory management, and secure online payments. Designed scalable backend infrastructure using AWS services and integrated Stripe for payment processing. Built an administrative dashboard for inventory management, order tracking, and customer operations. Generated over $1,000 in sales while supporting hundreds of monthly visitors.',
     tech: ['React', 'TypeScript', 'AWS', 'Stripe', 'Vercel'],
   },
   {
